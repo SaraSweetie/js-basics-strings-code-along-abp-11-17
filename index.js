@@ -4,4 +4,4 @@ let welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
 
 let excitedWelcomeMessage = welcomeMessage.toUpperCase() + currentUser + "!";
 
-const shortGreeting = "Welcome, " + currentUser.slice[0] + "!";;
+const shortGreeting = "Welcome, " + currentUser.slice(0,1) + "!";;
